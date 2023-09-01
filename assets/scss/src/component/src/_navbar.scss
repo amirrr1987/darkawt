@@ -1,0 +1,25 @@
+.navbar {
+    @extend .shadow;
+    @extend .grid__container;
+    &__item {
+        list-style-type: none;
+    }
+
+    &__link {}
+
+    &__logo-img {
+        @extend .w-100;
+        display: block;
+    }
+
+    &__nav {
+        @extend .d-flex;
+        background-color: red;
+    }
+
+    &__row {
+        @extend .grid__row;
+        @extend .grid;
+        grid-template-columns: em(100px) 1fr;
+    }
+}

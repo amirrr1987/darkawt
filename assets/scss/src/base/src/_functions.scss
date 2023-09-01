@@ -1,0 +1,3 @@
+@function em($pixel-primary, $pixel-base: 16px){
+    @return ( $pixel-primary / $pixel-base ) * 1em
+}

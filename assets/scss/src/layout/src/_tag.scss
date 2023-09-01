@@ -1,0 +1,14 @@
+.app{
+
+}
+.footer{
+    @extend .grid__container;
+    @extend .bg-primary;
+    @extend .text-light;
+    @extend .pb-5;
+    @extend .pt-5;
+    &__row{
+        @extend .grid__row;
+    }
+
+}
