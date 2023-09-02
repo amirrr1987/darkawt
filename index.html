@@ -5,142 +5,135 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <!-- <link rel="stylesheet" href="asset/css/style.min.css"> -->
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> -->
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.68;
-      overflow-x: hidden;
-      /* background-color: #0c2833; */
-      /* color: #e0a42f; */
-    }
-
-    .back {
-      background-image: url('./assets/images/back.jpg');
-    }
-  </style>
   <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+  <link rel="stylesheet" href="./assets/scss/style.css">
 </head>
 
 <body>
   <header>
-    <nav class="shadow">
-      <div class="container mx-auto px-4 flex gap-8 justify-start items-center">
-        <a href="" class="h-20 w-20"><img class="w-20 h-20 object-contain" src="./assets/images/logoo.png" alt=""></a>
+    <nav class="py-2">
+      <div class="container mx-auto px-4 flex items-center gap-4">
+        <img class="w-auto h-18 object-contain" src="./assets/img/logo.webp" title="" alt="">
         <ul class="list-none flex gap-4">
-          <li><a href="" class="no-underline text-xl capitalize text-dark">home</a></li>
-          <li><a href="" class="no-underline text-xl capitalize text-dark">about</a></li>
-          <li><a href="" class="no-underline text-xl capitalize text-dark">projects</a></li>
-          <li><a href="" class="no-underline text-xl capitalize text-dark">customers</a></li>
-          <li><a href="" class="no-underline text-xl capitalize text-dark">contact-us</a></li>
+          <li><a href="" class="no-underline capitalize text-dark">home</a></li>
+          <li><a href="" class="no-underline capitalize text-dark">home</a></li>
+          <li><a href="" class="no-underline capitalize text-dark">home</a></li>
+          <li><a href="" class="no-underline capitalize text-dark">home</a></li>
+          <li><a href="" class="no-underline capitalize text-dark">home</a></li>
         </ul>
       </div>
     </nav>
-    <img class="w-full h-160 object-cover" src="./assets/images/slider.jpeg" alt="">
+    <img class="w-full h-140 object-cover" src="./assets/img/banner.webp" title="" alt="">
   </header>
   <main>
-    <section class="py-12" style="background-image: url('./assets/images/back.jpg');">
-      <div class="container mx-auto px-4 grid lg:grid-cols-3 gap-4">
-        <div class="col-span-2 bg-light p-8 rounded">
-          <h4 class="text-3xl capitalize">steel buildings by norsteel</h4>
-          <hr class="border-amber mb-4 mt-2">
+    <section class="py-12" style="background-image: url('./assets/img/back.webp');">
+      <div class="container mx-auto px-4 flex flex-col lg:flex-row gap-4">
+        <img class="w-full object-contain lg:order-2 h-140 translate-y-4 lg:translate-y-13" src="./assets/img/engineering.webp" title="" alt="">
+        <div class="bg-white p-4 rounded lg:order-1">
+          <h4 class="text-3xl capitalize">title</h4>
           <p class="mb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolor nam perspiciatis nobis deleniti modi
-            quod magni accusantium in fugit, ea animi enim assumenda aut itaque placeat quo eligendi porro.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor hic ex minima quasi nobis blanditiis
-            praesentium, fugiat quae esse quos magni, quod voluptates expedita eaque vel consectetur perspiciatis
-            aliquam cum?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repellendus ipsam aliquid laudantium deserunt
-            tempore, autem minus perspiciatis nesciunt tempora ex quos modi iste cupiditate sed ad quo dolores numquam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vero fugiat soluta? Corrupti libero sapiente ullam harum esse enim, pariatur minus officia deserunt optio impedit. Nihil veniam culpa quos illo!
           </p>
-          <div class="grid grid-cols-2 gap-4">
-            <figure class="grid grid-cols-3 gap-4 p-4">
-              <img class="w-full" src="./assets/images/about.png" alt="">
-              <div class="col-span-2">
+          <div class="grid lg:grid-cols-2 gap-4">
+            <figure class="lg:flex lg:gap-4 ">
+              <img class="w-full lg:w-1/2" src="./assets/img/about.png" alt="">
+              <div class="">
                 <h4>title</h4>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
               </div>
             </figure>
-            <figure class="grid grid-cols-3 gap-4 p-4">
-              <img class="w-full" src="./assets/images/about.png" alt="">
-              <div class="col-span-2">
+            
+            <figure class="lg:flex lg:gap-4 ">
+              <img class="w-full lg:w-1/2" src="./assets/img/about.png" alt="">
+              <div class="">
                 <h4>title</h4>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
               </div>
             </figure>
-            <figure class="grid grid-cols-3 gap-4 p-4">
-              <img class="w-full" src="./assets/images/about.png" alt="">
-              <div class="col-span-2">
+            
+            
+            <figure class="lg:flex lg:gap-4 ">
+              <img class="w-full lg:w-1/2" src="./assets/img/about.png" alt="">
+              <div class="">
                 <h4>title</h4>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
               </div>
             </figure>
-            <figure class="grid grid-cols-3 gap-4 p-4">
-              <img class="w-full" src="./assets/images/about.png" alt="">
-              <div class="col-span-2">
+            
+            
+            <figure class="lg:flex lg:gap-4">
+              <img class="w-full lg:w-1/2" src="./assets/img/about.png" alt="">
+              <div class="">
                 <h4>title</h4>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
               </div>
             </figure>
+      
           </div>
-        </div>
-        <img class="h-140 translate-y-13" src="./assets/images/engineering.webp" alt="">
-      </div>
-    </section>
-    <section class="py-18" style="background-image: url('./assets/images/things-to-consider-bg.jpg');">
-      <div class="container mx-auto px-4 flex justify-evenly">
-        <div class="text-center text-light">
-          <div class="text-3xl">18</div>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="text-center text-light">
-          <div class="text-3xl">18</div>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="text-center text-light">
-          <div class="text-3xl">18</div>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="text-center text-light">
-          <div class="text-3xl">18</div>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-      </div>
-    </section>
-    <section class="py-12">
-      <div class="container mx-auto px-4">
-        <h4 class="text-3xl capitalize">our products</h4>
-        <hr class="border-amber my-2 mb-4">
-        <p class="mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est optio id, officiis voluptas sunt, voluptatibus iste architecto aliquid perferendis asperiores tenetur reiciendis cupiditate necessitatibus deserunt odit hic consequuntur pariatur atque.
-        </p>
-        <div class="grid grid-cols-3 gap-8">
-          <img class="w-full aspect-video	object-cover rounded" src="./assets/images/IMG_3667-512x384.jpg" alt="">
-          <img class="w-full aspect-video	object-cover rounded" src="./assets/images/IMG_3667-512x384.jpg" alt="">
-          <img class="w-full aspect-video	object-cover rounded" src="./assets/images/IMG_3667-512x384.jpg" alt="">
-          <img class="w-full aspect-video	object-cover rounded" src="./assets/images/IMG_3667-512x384.jpg" alt="">
-          <img class="w-full aspect-video	object-cover rounded" src="./assets/images/IMG_3667-512x384.jpg" alt="">
         </div>
       </div>
     </section>
 
-    <section class="py-12 bg-light relative">
-      <div class="container mx-auto px-4 grid grid-cols-3">
+    <section class="py-18" style="background-image: url('./assets/img/consider-bg.webp');">
+      <div class="container mx-auto px-4 flex flex-col lg:flex-row gap-y-16 lg:gap-y-0 justify-evenly">
+        <div class="text-center text-light">
+          <div class="text-3xl">18</div>
+          <p>Lorem ipsum dolor sit.</p>
+        </div>
+        <div class="text-center text-light">
+          <div class="text-3xl">18</div>
+          <p>Lorem ipsum dolor sit.</p>
+        </div>
+        <div class="text-center text-light">
+          <div class="text-3xl">18</div>
+          <p>Lorem ipsum dolor sit.</p>
+        </div>
+        <div class="text-center text-light">
+          <div class="text-3xl">18</div>
+          <p>Lorem ipsum dolor sit.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-12">
+      <div class="container mx-auto px-4">
+        <h4>Our products</h4>
+        <hr class="mt-1 mb-4">
+        <div class="grid lg:grid-cols-3 gap-4">
+          <img class="w-full aspect-video	object-cover rounded" src="./assets/img/project.webp" title="" alt="">
+          <img class="w-full aspect-video	object-cover rounded" src="./assets/img/project.webp" title="" alt="">
+          <img class="w-full aspect-video	object-cover rounded" src="./assets/img/project.webp" title="" alt="">
+          <img class="w-full aspect-video	object-cover rounded" src="./assets/img/project.webp" title="" alt="">
+          <img class="w-full aspect-video	object-cover rounded" src="./assets/img/project.webp" title="" alt="">
+          <img class="w-full aspect-video	object-cover rounded" src="./assets/img/project.webp" title="" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="py-18" style="background-image: url('./assets/img/consider-bg.webp');">
+      <div class="container mx-auto px-4 text-center">
+        <h4 class="text-light text-3xl mb-4 capitalize">considerations</h4>
+        <p class="text-light mb-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem recusandae nihil nostrum officia iusto
+          esse, accusamus quaerat enim error quis fugiat sequi ratione dolorum voluptatum cum deserunt dicta velit aut!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio similique accusamus saepe harum sunt, error
+          totam quidem modi excepturi quas molestias earum inventore iusto nostrum, obcaecati unde, cupiditate id in?
+        </p>
+        <a href="" class="bg-light px-8 py-2 rounded no-underline capitalize">more</a>
+      </div>
+    </section>
+
+
+    <section class="py-12 bg-light lg:relative">
+      <div class="container mx-auto px-4 grid lg:grid-cols-3">
         <div class="col-span-2">
           <h4 class="text-3xl capitalize">components</h4>
           <hr class="border-amber my-2 mb-4">
@@ -153,15 +146,17 @@
           </p>
           <a href="" class="bg-amber py-2 px-8 rounded no-underline capitalize">more</a>
         </div>
-        <img class="absolute right-0 top-0 h-150 z-10" src="./assets/images/steel-component.png" alt="">
+        <img class="hidden lg:block lg:absolute lg:right-0 lg:top-0 lg:h-150 lg:z-10" src="./assets/img/steel-component.webp" alt="">
       </div>
     </section>
-    <section class="py-12 relative h-140">
-      <div class="container mx-auto px-4 grid grid-cols-5">
-        <img class="absolute bottom-0 left-0 h-140" src="./assets/images/3d-building-2-top.webp" alt="">
-        <img class="absolute -bottom-27 left-65 w-60" src="./assets/images/3d-building-2-bottom.webp" alt="">
-        <div class="col-span-3 col-start-3">
-          <h4 class="text-3xl capitalize">components</h4>
+
+
+    <section class="py-12 lg:relative lg:h-140">
+      <div class="container mx-auto px-4 grid lg:grid-cols-5">
+        <img class="hidden lg:block lg:absolute lg:bottom-0 lg:left-0 lg:h-140" src="./assets/img/building-2-top.webp" alt="">
+        <img class="hidden lg:block lg:absolute lg:-bottom-27 lg:left-65 lg:w-60" src="./assets/img/building-2-bottom.webp" alt="">
+        <div class="lg:col-span-3 lg:col-start-3">
+          <h4 class="text-3xl capitalize">Desgin</h4>
           <hr class="border-amber my-2 mb-4">
           <p class="mb-4">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis sit assumenda expedita maxime ea quas
@@ -174,21 +169,28 @@
         </div>
       </div>
     </section>
-    <section class="py-18" style="background-image: url('./assets/images/things-to-consider-bg.jpg');">
+
+
+    <section class="py-18" style="background-image: url('./assets/img/consider-bg.webp');">
       <div class="container mx-auto px-4 text-center">
-        <h4 class="text-white text-3xl mb-4 capitalize">considerations</h4>
-        <p class="text-white mb-4">
+        <h4 class="text-light text-3xl mb-4 capitalize">considerations</h4>
+        <p class="text-light mb-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem recusandae nihil nostrum officia iusto
           esse, accusamus quaerat enim error quis fugiat sequi ratione dolorum voluptatum cum deserunt dicta velit aut!
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio similique accusamus saepe harum sunt, error
           totam quidem modi excepturi quas molestias earum inventore iusto nostrum, obcaecati unde, cupiditate id in?
         </p>
-        <a href="" class="text-white no-underline capitalize">more</a>
+        <a href="" class="bg-light px-8 py-2 rounded no-underline capitalize">more</a>
       </div>
     </section>
-    <section class="p-12">
-      <div class="container mx-auto px-4 grid lg:grid-cols-2 gap-4">
-        <div class="">
+    
+
+
+
+    <section class="py-12">
+      <div class="container mx-auto px-4 flex flex-col lg:flex-row gap-4">
+        <img class="lg:w-1/2 lg:order-2" src="./assets/img/about.webp" title="" alt="">
+        <div class="lg:w-1/2 lg:order-1">
           <form class="grid grid-cols-12 gap-4">
             <legend class="col-span-12">contact-us</legend>
             <input class="p-2 rounded border border-1 border-solid border-gray-300 focus:outline-none col-span-12" type="email"
@@ -199,53 +201,52 @@
               placeholder="Enter your last name">
             <textarea rows="14" class="p-2 rounded border border-solid border-1 border-gray-300 focus:outline-none col-span-12"
               placeholder="Enter your message"></textarea>
-            <button class="p-2 rounded border-1 col-span-2" type="submit">send</button>
+            <button class="p-2 rounded border-1 col-span-12" type="submit">send</button>
           </form>
         </div>
-        <!-- <iframe class="w-full h-full border-0"></iframe> -->
-        <img class="w-full" src="./assets/images/about.png" alt="">
       </div>
     </section>
-  </main>
 
-  <footer class="footer">
-    <div class="bg-[#0c2833] text-blue-50 py-12">
-      <div class="container mx-auto px-4 grid sm:grid-cols-1 md:grid-cols-12 lg:grid-cols-3 gap-4">
-        <div class="md:col-span-6 lg:col-span-1 p-4">
-          <h4 class="text-amber">Darkawt co</h4>
-          <hr class="border-amber mb-4 mt-2">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel magnam rem veniam nesciunt molestias commodi
-            perspiciatis nisi, excepturi atque eligendi repudiandae laudantium ducimus maxime. Labore, harum sequi?
-            Aliquam, corporis molestiae!
+
+
+  </main>
+  <footer>
+    <div class="bg-dark py-12">
+      <div class="container mx-auto px-4 flex flex-col lg:flex-row gap-4">
+        <div class="text-light">
+          <h4 class="text-xl capitalize">title</h4>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In veniam mollitia pariatur. Neque modi provident
+            fugiat ullam, laborum consequatur quidem commodi. Aliquam, placeat. Ullam reprehenderit nobis ratione,
+            maxime nulla magni.
           </p>
         </div>
-        <div class="md:col-span-6 lg:col-span-1 p-4">
-          <h4 class="text-amber">Contact us</h4>
-          <hr class="border-amber mb-4 mt-2">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel magnam rem veniam nesciunt molestias commodi
-            perspiciatis nisi, excepturi atque eligendi repudiandae laudantium ducimus maxime. Labore, harum sequi?
-            Aliquam, corporis molestiae!
+        
+        <div class="text-light">
+          <h4 class="text-xl capitalize">title</h4>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In veniam mollitia pariatur. Neque modi provident
+            fugiat ullam, laborum consequatur quidem commodi. Aliquam, placeat. Ullam reprehenderit nobis ratione,
+            maxime nulla magni.
           </p>
         </div>
-        <div class="md:col-start-4 md:col-span-6 lg:col-span-1 lg:col-start-3 p-4">
-          <h4 class="text-amber">Social</h4>
-          <hr class="border-amber mb-2 mt-1">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel magnam rem veniam nesciunt molestias commodi
-            perspiciatis nisi, excepturi atque eligendi repudiandae laudantium ducimus maxime. Labore, harum sequi?
-            Aliquam, corporis molestiae!
+        
+        <div class="text-light">
+          <h4 class="text-xl capitalize">title</h4>
+          <p class="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In veniam mollitia pariatur. Neque modi provident
+            fugiat ullam, laborum consequatur quidem commodi. Aliquam, placeat. Ullam reprehenderit nobis ratione,
+            maxime nulla magni.
           </p>
         </div>
 
       </div>
     </div>
-    <div class="bg-[#081a22] text-blue-50 text-xs py-4">
+    <div class="bg-black py-4">
       <div class="container mx-auto px-4">
-        <div class="text-center">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, debitis!
-        </div>
+        <p class="text-light text-center text-sm">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In veniam mollitia pariatur.
+        </p>
       </div>
     </div>
   </footer>
