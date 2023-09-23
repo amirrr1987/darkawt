@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Darkawt</title>
   <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   <link rel="stylesheet" href="./assets/scss/style.css">
 </head>
 
@@ -25,17 +26,18 @@
     <img class="w-full h-140 object-cover" src="./assets/img/banner.webp" title="" alt="">
   </header>
   <main>
+    
     <section class="py-12" style="background-image: url('./assets/img/back.webp');">
-      <div class="container mx-auto px-4 flex flex-col lg:flex-row gap-4">
+      <div class="container mx-auto px-4 flex flex-col lg:flex-row gap-4 lg:items-center">
         <img class="w-full object-contain lg:order-2 h-140 translate-y-4 lg:translate-y-13" src="./assets/img/engineering.webp" title="" alt="">
-        <div class="bg-white p-4 rounded lg:order-1">
+        <div class="bg-white p-16 rounded lg:order-1 lg:h-max shadow">
           <h4 class="text-3xl capitalize">title</h4>
           <p class="mb-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vero fugiat soluta? Corrupti libero sapiente ullam harum esse enim, pariatur minus officia deserunt optio impedit. Nihil veniam culpa quos illo!
           </p>
-          <div class="grid lg:grid-cols-2 gap-4">
+          <div class="grid lg:grid-cols-2 gap-16">
             <figure class="lg:flex lg:gap-4 ">
-              <img class="w-full lg:w-1/2" src="./assets/img/about.png" alt="">
+              <iconify-icon icon="tabler:home" width="56" class="text-yellow"></iconify-icon>
               <div class="">
                 <h4>title</h4>
                 <p>
@@ -45,7 +47,7 @@
             </figure>
             
             <figure class="lg:flex lg:gap-4 ">
-              <img class="w-full lg:w-1/2" src="./assets/img/about.png" alt="">
+              <iconify-icon icon="tabler:home" width="56" class="text-yellow"></iconify-icon>
               <div class="">
                 <h4>title</h4>
                 <p>
@@ -56,7 +58,7 @@
             
             
             <figure class="lg:flex lg:gap-4 ">
-              <img class="w-full lg:w-1/2" src="./assets/img/about.png" alt="">
+              <iconify-icon icon="tabler:home" width="56" class="text-yellow"></iconify-icon>
               <div class="">
                 <h4>title</h4>
                 <p>
@@ -67,7 +69,7 @@
             
             
             <figure class="lg:flex lg:gap-4">
-              <img class="w-full lg:w-1/2" src="./assets/img/about.png" alt="">
+              <iconify-icon icon="tabler:home" width="56" class="text-yellow"></iconify-icon>
               <div class="">
                 <h4>title</h4>
                 <p>
@@ -106,7 +108,7 @@
       <div class="container mx-auto px-4">
         <h4>Our products</h4>
         <hr class="mt-1 mb-4">
-        <div class="grid lg:grid-cols-3 gap-4">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           <img class="w-full aspect-video	object-cover rounded" src="./assets/img/project.webp" title="" alt="">
           <img class="w-full aspect-video	object-cover rounded" src="./assets/img/project.webp" title="" alt="">
           <img class="w-full aspect-video	object-cover rounded" src="./assets/img/project.webp" title="" alt="">
